@@ -1,0 +1,6 @@
+name: CustomTitles
+version: '${project.version}'
+main: me.frxq15.customtitles.CustomTitles
+api-version: 1.17
+authors: [ Frxq15 ]
+description: Custom titles plugin
