@@ -1,6 +1,7 @@
 package me.frxq15.customtitles;
 
 import me.frxq15.customtitles.Commands.titleCommand;
+import me.frxq15.customtitles.GUIManager.GUIListeners;
 import me.frxq15.customtitles.GUIManager.TitlesGUI;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
@@ -22,13 +23,12 @@ public final class CustomTitles extends JavaPlugin {
         initializeClasses();
         log("Plugin enabled successfully.");
         getCommand("titles").setExecutor(new titleCommand());
-        // Plugin startup logic
+        Bukkit.getPluginManager().registerEvents(new GUIListeners(), this);
     }
 
     @Override
     public void onDisable() {
         log("Plugin disabled successfully.");
-        // Plugin shutdown logic
     }
     public void log(String log) { Bukkit.getConsoleSender().sendMessage(ChatColor.AQUA+"[FrxqTitles] "+log); }
     public String colourize(String input) {
