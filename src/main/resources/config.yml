@@ -17,6 +17,7 @@ TITLES_GUI:
     - "&7Click to select a colour for this title."
   TITLES_NO_PERMISSION_LORE:
     - "&cYou have not unlocked this title."
+    - "&7Purchase titles from &bstore.servername.com"
 
 MESSAGES:
   NO_PERMISSION: "You dont have permission to execute this command."
