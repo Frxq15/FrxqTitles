@@ -1,0 +1,22 @@
+TITLES:
+  TEST:
+    TITLE_ID: TEST
+    GUI_SLOT: 0
+    GUI_ITEM: "PAPER"
+    TITLE_STRING: "Test"
+  TEST2:
+    TITLE_ID: TEST2
+    GUI_SLOT: 1
+    GUI_ITEM: "PAPER"
+    TITLE_STRING: "Test2"
+TITLES_GUI:
+  SIZE: 54
+  TITLE: "&f&nTitles Menu"
+  TITLES_NAME: "&b%title%"
+  TITLES_LORE:
+    - "&7Click to select a colour for this title."
+  TITLES_NO_PERMISSION_LORE:
+    - "&cYou have not unlocked this title."
+
+MESSAGES:
+  NO_PERMISSION: "You dont have permission to execute this command."
